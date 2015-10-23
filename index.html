@@ -41,7 +41,7 @@
             $("#page-content").css("height", winHeight*2);
             $(".myBoxA").css("margin-top", winHeight*.8);
             $(".myBoxA").css("height", winHeight*2);
-            $(".myBoxA").attr("data-"+(winHeight*.8)+"-top", "transform: rotateY(0deg)");
+            $(".myBoxA").attr("data-"+Math.floor(winHeight*.8)+"-top", "transform: rotateY(0deg)");
             $(".myBoxB").css("height", winHeight*2);
             $(".myBoxB").css("padding-top", winHeight*.6);
             var s = skrollr.init();
